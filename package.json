@@ -1,0 +1,20 @@
+{
+  "name": "pothos-apollo",
+  "module": "serve.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "@pothos/core": "^3.40.1",
+    "graphql": "^16.8.1"
+  }
+}
